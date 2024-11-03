@@ -1,0 +1,21 @@
+---
+- name: Install and Configure Apache 
+  hosts: webservers
+  become: yes
+  tasks: 
+  
+   - name: Upgrade all packages
+     ansible.builtin.yum:
+        name: '*'
+        state: latest 
+
+   - name: Install the latest version of Apache
+     ansible.builtin.yum:
+        name: httpd
+        state: latest
+
+   - name: Start httpt or Apache
+     ansible.builtin.systemd:
+        name: httpd
+        state: started
+        
