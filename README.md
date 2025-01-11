@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @Chiekadarrell
-- 👀 I’m interested in web designing
-- 🌱 I’m currently learning Environmental Engineering
-- 💞️ I’m looking to collaborate on web desiging
+- 👀 I’m a DevOps Engineer
+- 🌱 I’m also a Webdesigner
+- 💞️ I’m looking to collaborate on DevOps, Cloud projects and web desiging
 - 📫 How to reach me @darrellkimbi12@gmail.com
 
 <!---
